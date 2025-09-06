@@ -503,6 +503,8 @@ sudo cp creds /usr/bin/ && sudo chmod +x /usr/bin/creds
 cd ..
 sudo rm -r DefaultCreds-cheat-sheet
 
+pipx install git+https://github.com/brightio/penelope
+
 sudo apt install obsidian
 
 clear
