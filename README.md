@@ -19,21 +19,21 @@ git clone https://github.com/suljov/Kali-update-and-tool-install
 ```
 2. Move the script
 ```
-mv GearUpMyKali/kali-setup.sh .
+mv Kali-update-and-tool-install/GearUpMyKali.sh .
 ```
 3. Make it executeable
 ```
-chmod +x kali-setup.sh
+chmod +x GearUpMyKali.sh
 ```
 
 4. Run the script
 ```
-./kali-setup.sh
+./GearUpMyKali.sh
 ```
 
 ## Run the script using Curl
 ```
-curl https://raw.githubusercontent.com/suljov/Kali-update-and-tool-install/main/kali-setup.sh | bash
+curl https://raw.githubusercontent.com/suljov/GearUpMyKali/refs/heads/main/GearUpMyKali.sh | bash
 ```
 
 
