@@ -15,7 +15,7 @@
 
 1. Download the script
 ```
-git clone https://github.com/suljov/Kali-update-and-tool-install
+git clone https://github.com/suljov/GearUpMyKali
 ```
 2. Move the script
 ```
