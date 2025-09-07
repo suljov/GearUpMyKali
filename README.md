@@ -19,7 +19,7 @@ git clone https://github.com/suljov/Kali-update-and-tool-install
 ```
 2. Move the script
 ```
-mv Kali-update-and-tool-install/kali-setup.sh .
+mv GearUpMyKali/kali-setup.sh .
 ```
 3. Make it executeable
 ```
