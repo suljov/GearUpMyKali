@@ -43,6 +43,8 @@ echo "neofetch" >> /home/$username/.bashrc
 
 
 
+sudo mv wallpaper-anime-berserk.jpg /usr/share/backgrounds/kali-16x9/wallpaper-anime-berserk.jpg
+
 
 
 sudo apt update -y
