@@ -42,7 +42,7 @@ echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/
 echo "neofetch" >> /home/$username/.bashrc
 
 
-
+mv GearUpMyKali/wallpaper-anime-berserk.jpg .
 sudo mv wallpaper-anime-berserk.jpg /usr/share/backgrounds/kali-16x9/wallpaper-anime-berserk.jpg
 
 
