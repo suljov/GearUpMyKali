@@ -341,6 +341,7 @@ repo_urls=(
     "https://github.com/carlospolop/cloudpeass"
     "https://github.com/cobbr/SharpSploit"
     "https://github.com/olafhartong/Invoke-Phant0m"
+    "https://github.com/ra1nb0rn/search_vulns"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -352,7 +353,7 @@ done
 
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
-mv Pentest-Cheatsheets misc/
+mv Pentest-Cheatsheets search_vulns misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
 mv cloudpeass cloud/Misc
 mv SSLPinDetect mobile
@@ -452,6 +453,7 @@ sudo rm -r /opt/mitm6/
 sudo rm -r /opt/winpeas/
 
 go install github.com/projectdiscovery/katana/cmd/katana@latest
+go install github.com/projectdiscovery/cvemap/cmd/vulnx@latest
 
 clear
 
