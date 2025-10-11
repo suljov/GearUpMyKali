@@ -64,6 +64,9 @@ sudo apt install libx11-dev libxcursor-dev libxrandr-dev libxinerama-dev libxi-d
 sudo apt-get install libkrb5-dev -y
 pip3 install bloodyAD
 
+sudo apt-get install nim
+nimble install winim zippy nimcrypto
+
 
 sudo apt install -y docker.io -y
 sudo systemctl enable docker --now
