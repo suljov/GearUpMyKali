@@ -33,13 +33,11 @@ echo "export GOROOT=/usr/lib/go" >> /home/$username/.zshrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.zshrc
 echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.zshrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.zshrc
-echo "neofetch" >> /home/$username/.zshrc
 
 echo "export GOROOT=/usr/lib/go" >> /home/$username/.bashrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.bashrc
 echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.bashrc
-echo "neofetch" >> /home/$username/.bashrc
 
 
 mv GearUpMyKali/wallpaper-anime-berserk.jpg .
@@ -55,7 +53,6 @@ sudo apt upgrade --fix-missing -y
 sudo apt --fix-broken install -y
 
 
-sudo apt install neofetch -y
 sudo apt install xclip -y
 sudo apt install pipx -y
 sudo apt install nmap -y
