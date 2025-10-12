@@ -441,9 +441,7 @@ rm -r paramspider
 
 clear
 
-sudo rm -r /opt/linpeas/ 
-sudo rm -r /opt/mitm6/
-sudo rm -r /opt/winpeas/
+
 
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 go install github.com/projectdiscovery/cvemap/cmd/vulnx@latest
