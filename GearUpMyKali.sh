@@ -335,6 +335,9 @@ repo_urls=(
     "https://github.com/djhohnstein/SharpChromium"
     "https://github.com/moonD4rk/HackBrowserData"
     "https://github.com/eladshamir/Whisker"
+    "https://github.com/praetorian-inc/PortBender"
+    "https://github.com/xct/winpspy"
+    "https://github.com/jellever/StreamDivert"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -344,7 +347,7 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester ntlm_theft windapsearch Rubeus Whisker SharpChromium HackBrowserData PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy StreamDivert ntlm_theft windapsearch Rubeus Whisker SharpChromium HackBrowserData PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets search_vulns misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
