@@ -75,6 +75,7 @@ mkdir web
 mkdir system
 mkdir system/linux
 mkdir system/windows
+mkdir system/docker
 mkdir pivoting
 mkdir misc
 mkdir c2
@@ -339,6 +340,7 @@ repo_urls=(
     "https://github.com/xct/winpspy"
     "https://github.com/jellever/StreamDivert"
     "https://github.com/p0dalirius/Coercer"
+    "https://github.com/stealthcopter/deepce"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -354,6 +356,7 @@ mv Pentest-Cheatsheets search_vulns misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
 mv cloudpeass cloud/Misc
 mv SSLPinDetect mobile
+mv deepce system/docker/
 
 
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
