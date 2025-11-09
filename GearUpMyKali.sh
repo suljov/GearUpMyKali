@@ -346,6 +346,7 @@ repo_urls=(
     "https://github.com/dev-2null/ADCollector"
     "https://github.com/Hackndo/pyGPOAbuse"
     "https://github.com/000pp/tomcter"
+    "https://github.com/ptoomey3/evilarc"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -357,7 +358,7 @@ done
 
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy ADRecon StreamDivert pyGPOAbuse ADCollector Coercer ntlm_theft windapsearch Rubeus Whisker SharpChromium HackBrowserData PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
-mv Pentest-Cheatsheets search_vulns misc/
+mv Pentest-Cheatsheets search_vulns evilarc misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
 mv cloudpeass NetworkHound cloud/Misc
 mv SSLPinDetect mobile
