@@ -348,6 +348,7 @@ repo_urls=(
     "https://github.com/000pp/tomcter"
     "https://github.com/ptoomey3/evilarc"
     "https://github.com/Yaxxine7/ASRepCatcher"
+    "https://github.com/cube0x0/KrbRelay"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -357,7 +358,7 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy ADRecon StreamDivert pyGPOAbuse ADCollector Coercer ntlm_theft windapsearch Rubeus Whisker SharpChromium HackBrowserData PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 ASRepCatcher Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy ADRecon StreamDivert KrbRelay pyGPOAbuse ADCollector Coercer ntlm_theft windapsearch Rubeus Whisker SharpChromium HackBrowserData PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 ASRepCatcher Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets search_vulns evilarc misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
