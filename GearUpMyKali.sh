@@ -282,7 +282,6 @@ repo_urls=(
     "https://github.com/AonCyberLabs/Windows-Exploit-Suggester"
     "https://github.com/ropnop/windapsearch"
     "https://github.com/GhostPack/Rubeus"
-    "https://github.com/itm4n/PrivescCheck"
     "https://github.com/ParrotSec/mimikatz"
     "https://github.com/int0x33/nc.exe"
     "https://github.com/topotam/PetitPotam"
@@ -360,7 +359,11 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy Sharpmad ADRecon StreamDivert KrbRelay ADExplorerSnapshot.py pyGPOAbuse ADCollector Coercer ntlm_theft windapsearch Rubeus Whisker SharpChromium HackBrowserData PrivescCheck mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 ASRepCatcher Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
+wget https://github.com/itm4n/PrivescCheck/releases/download/2025.11.09-1/PrivescCheck.ps1
+wget https://raw.githubusercontent.com/LuemmelSec/Pentest-Tools-Collection/refs/heads/main/tools/ActiveDirectory/BadSuccessor.ps1
+
+
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy Sharpmad ADRecon PrivescCheck.ps1 BadSuccessor.ps1 StreamDivert KrbRelay ADExplorerSnapshot.py pyGPOAbuse ADCollector Coercer ntlm_theft windapsearch Rubeus Whisker SharpChromium HackBrowserData mimikatz nc.exe PetitPotam SharpUp CVE-2023-2255 ASRepCatcher Seatbelt bloodyAD krbrelayx SharpSploit Invoke-Phant0m impacket PrecompiledBinaries SharpCollection BloodHound.py adPEAS windowsprivchecker BloodHound donut powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets search_vulns evilarc misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
