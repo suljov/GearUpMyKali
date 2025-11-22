@@ -471,7 +471,7 @@ go install -v github.com/projectdiscovery/urlfinder/cmd/urlfinder@latest
 
 clear
 
-
+sudo pipx install coercer
 
 sudo chown -R $username:$username tools
 
