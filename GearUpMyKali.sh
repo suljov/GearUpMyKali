@@ -515,6 +515,7 @@ cd ..
 sudo rm -r DefaultCreds-cheat-sheet
 
 pipx install git+https://github.com/brightio/penelope
+pipx install roadrecon
 
 sudo apt install obsidian
 
