@@ -394,6 +394,7 @@ cd ..
 sudo cp kiterunner/dist/kr /usr/bin/kr
 
 git clone https://github.com/vladko312/SSTImap
+go install github.com/fffaraz/fakessh@latest
 
 
 git clone https://github.com/josfaber/phpcc
