@@ -129,13 +129,11 @@ wget https://download.sysinternals.com/files/SysinternalsSuite.zip
 mv linpeas_linux_amd64 linpeas.sh system/linux/
 mv winPEAS.bat winPEASx64.exe winPEASx64_ofs.exe SysinternalsSuite.zip  winPEASx86.exe winPEASany.exe RunasCs.zip FullPowers.exe  system/windows/
 
-wget https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan_2.3.0_amd64.deb
-sudo dpkg -i rustscan_2.3.0_amd64.deb
-sudo rm rustscan_2.3.0_amd64.deb
+wget https://github.com/bee-san/RustScan/releases/latest/download/rustscan.deb.zip
+unzip rustscan.deb.zip
+sudo dpkg -i rustscan_*.deb
+sudo rm rustscan_*
 
-wget https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan_2.3.0_amd64.deb
-chmod +x kerbrute_linux_amd64
-sudo mv kerbrute_linux_amd64 /usr/bin/kerbrute
 
 git clone https://github.com/AlessandroZ/LaZagne
 cd LaZagne
