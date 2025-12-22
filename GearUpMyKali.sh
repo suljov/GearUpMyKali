@@ -450,6 +450,7 @@ cd paramspider
 pipx install .
 cd ..
 rm -r paramspider
+curl -qsL 'https://install.pwndbg.re' | sh -s -- -t pwndbg-gdb
 
 
 clear
