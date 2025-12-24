@@ -451,6 +451,23 @@ pipx install .
 cd ..
 rm -r paramspider
 curl -qsL 'https://install.pwndbg.re' | sh -s -- -t pwndbg-gdb
+pipx install ropper
+
+set -e
+
+TMP_DIR=$(mktemp -d)
+cd "$TMP_DIR"
+
+curl -s https://api.github.com/repos/slimm609/checksec/releases/latest \
+  | grep "browser_download_url.*amd64.deb" \
+  | cut -d '"' -f 4 \
+  | wget -i -
+
+sudo dpkg -i *.deb
+
+rm *.deb
+
+pipx install pwntools
 
 
 clear
