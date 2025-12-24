@@ -450,6 +450,7 @@ cd paramspider
 pipx install .
 cd ..
 rm -r paramspider
+echo 'set disassembly-flavor intel' > ~/.gdbinit
 curl -qsL 'https://install.pwndbg.re' | sh -s -- -t pwndbg-gdb
 pipx install ropper
 
