@@ -469,6 +469,7 @@ sudo dpkg -i *.deb
 rm *.deb
 
 pipx install pwntools
+sudo apt install python3-pwntools
 
 
 clear
