@@ -470,7 +470,8 @@ rm *.deb
 
 pipx install pwntools
 sudo apt install python3-pwntools
-
+sudo apt install patchelf
+sudo apt install elfutils 
 
 clear
 
