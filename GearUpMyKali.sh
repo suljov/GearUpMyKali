@@ -135,6 +135,13 @@ sudo dpkg -i rustscan_*.deb
 sudo rm rustscan_*
 
 
+git clone https://github.com/Bashfuscator/Bashfuscator
+cd Bashfuscator
+python3 setup.py install --user
+cd ..
+sudo rm -r Bashfuscator
+
+
 git clone https://github.com/AlessandroZ/LaZagne
 cd LaZagne
 wget https://github.com/AlessandroZ/LaZagne/releases/latest/download/LaZagne.exe 
