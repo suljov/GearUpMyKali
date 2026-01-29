@@ -548,6 +548,9 @@ pipx install roadrecon
 
 sudo apt install obsidian
 
+cargo install rusthound-ce
+
+
 clear
 
 
