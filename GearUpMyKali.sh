@@ -10,7 +10,7 @@ sleep 2
 
 
 clear
-mv GearUpMyKali/.cent.yaml ~/.cent.yaml
+mv GearUpMyKali/.cent.yaml ~/.cent.yaml || .cent.yaml ~/.cent.yaml
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
 git clone https://github.com/jazzpizazz/zsh-aliases
