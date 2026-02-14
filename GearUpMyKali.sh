@@ -2,7 +2,6 @@
 
 
 clear
-clearhttp://10.10.10.14/
 echo "Please enter your username:"
 read username
 clear
