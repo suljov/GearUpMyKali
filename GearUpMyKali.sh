@@ -14,9 +14,8 @@ mv GearUpMyKali/.cent.yaml ~/.cent.yaml || .cent.yaml ~/.cent.yaml
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
 git clone https://github.com/jazzpizazz/zsh-aliases
-mv zsh-aliases  ~/.zsh-aliases
-echo "source ~/.zsh-aliases/aliases.zsh" >> ~/.zshrc
-echo "source ~/.zsh-aliases/aliases.zsh" >> ~/.bashrc
+echo "source ~/zsh-aliases/aliases.zsh" >> ~/.zshrc
+echo "source ~/zsh-aliases/aliases.zsh" >> ~/.bashrc
 
 echo "alias copyme='xclip -sel clip'" >> ~/.zshrc
 echo "alias copyme='xclip -sel clip'" >> ~/.bashrc
