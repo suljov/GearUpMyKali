@@ -490,7 +490,6 @@ go install github.com/projectdiscovery/cvemap/cmd/vulnx@latest
 clear
 
 go install github.com/ropnop/kerbrute@latest
-sudo apt purge httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
