@@ -13,7 +13,7 @@ clear
 mv GearUpMyKali/.cent.yaml ~/.cent.yaml || .cent.yaml ~/.cent.yaml
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
-git clone https://github.com/jazzpizazz/zsh-aliases
+git clone https://github.com/jazzpizazz/zsh-aliases ~/zsh-aliases
 echo "source ~/zsh-aliases/aliases.zsh" >> ~/.zshrc
 echo "source ~/zsh-aliases/aliases.zsh" >> ~/.bashrc
 
