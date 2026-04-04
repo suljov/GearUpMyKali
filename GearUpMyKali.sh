@@ -2,10 +2,16 @@
 
 
 clear
-echo "Please enter your username:"
+echo "Please enter your username:"Updating crates.io index
+     Ignored package `rusthound-ce v2.4.7` is already installed, use --force to override
+warning: be sure to add `/home/suljov/.cargo/bin` to your PATH to be able to run the installed binaries
+
 read username
 clear
-echo "The script will now update the system and download tools"
+echo "The script will now update the system and download tools"Updating crates.io index
+     Ignored package `rusthound-ce v2.4.7` is already installed, use --force to override
+warning: be sure to add `/home/suljov/.cargo/bin` to your PATH to be able to run the installed binaries
+
 sleep 2
 
 
@@ -547,6 +553,9 @@ sudo apt install obsidian
 
 sudo apt install cargo
 cargo install rusthound-ce
+
+echo "export PATH=\$HOME/.cargo/bin:\$PATH" >> ~/.zshrc
+echo "export PATH=\$HOME/.cargo/bin:\$PATH" >> ~/.bashrc
 
 
 clear
