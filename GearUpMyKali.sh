@@ -2,15 +2,12 @@
 
 
 clear
-echo "Please enter your username:"Updating crates.io index
-     Ignored package `rusthound-ce v2.4.7` is already installed, use --force to override
-warning: be sure to add `/home/suljov/.cargo/bin` to your PATH to be able to run the installed binaries
+echo "Please enter your username:"
+
 
 read username
 clear
-echo "The script will now update the system and download tools"Updating crates.io index
-     Ignored package `rusthound-ce v2.4.7` is already installed, use --force to override
-warning: be sure to add `/home/suljov/.cargo/bin` to your PATH to be able to run the installed binaries
+echo "The script will now update the system and download tools"
 
 sleep 2
 
